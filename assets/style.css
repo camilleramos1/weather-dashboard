@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --blue: #8fbffd;
+    --dark: rgb(0, 26, 255);
+
+}
+
+.mynav {
+    background-image: linear-gradient(to right, var(--blue), var(--dark));
+    font-size: 2rem;
+    align-items: flex-end;
+}
+
+.title {
+    color: white;
+    text-shadow: 2px 2px var(--dark);
+}
+
+.search-bar {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--dark);
+}
+
+#submitBtn {
+    margin-top: 10px;
+}
+
+.search-history {
+    font-size: 1.5rem;
+    color: var(--dark);
+}
+
+.recents-list {
+    margin-top: 20px;
+}
+
+.forecast {
+    color: var(--dark);
+    font-size: 2rem;
+}
+
+.card-body {
+    background-color: var(--blue);
+    color: white;
+    border-radius: 8px;
+}
