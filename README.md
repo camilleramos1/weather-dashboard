@@ -20,7 +20,7 @@ To install this, you can clone the code from this GitHub repository, or simply u
 Click the link below to see the live application: 
 
 
-https://github.com/camilleramos1/weather-dashboard/deployments/github-pages
+https://camilleramos1.github.io/weather-dashboard/
 
 ## Usage
 After navigating to the site, simply type in the name of the city you would like to view the weather for, and click 'search'. Then, you will see the current and future weather for that city on the right. You will also see that a button has been dynamically generated below the previous searches area, allowing you to click the button for a faster future search of that city.
