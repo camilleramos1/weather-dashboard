@@ -20,6 +20,10 @@
     text-shadow: 2px 2px var(--dark);
 }
 
+.whole-container {
+    margin: 25px;
+}
+
 .search-bar {
     font-size: 1.5rem;
     font-weight: bold;
@@ -30,6 +34,12 @@
     margin-top: 10px;
 }
 
+#clearBtn {
+    background-color: var(--blue);
+}
+.btn-secondary {
+    margin-left: 10px; 
+}
 .search-history {
     font-size: 1.5rem;
     color: var(--dark);
@@ -39,13 +49,18 @@
     margin-top: 20px;
 }
 
+.big-icon {
+    background-color: rgb(225, 225, 225);
+    border-radius: 8px;
+}
+
 .forecast {
     color: var(--dark);
     font-size: 2rem;
 }
 
 .card-body {
-    background-color: var(--blue);
+    background-image: linear-gradient(#bad8fe , #4e9afd);
     color: white;
     border-radius: 8px;
 }
